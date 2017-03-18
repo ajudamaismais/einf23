@@ -54,7 +54,7 @@ int main(int argc, char const *argv[])
 	/**
 	 ** full error checking with winteger() function which takes
 	 ** 2 args, the text to display before the input and the warning
-	 ** Its the best of both worlds. Second args is optionable, if you
+	 ** It's the best of both worlds. Second arg is optionable, if you
 	 ** want to diismiss it, just type "nil" and a default error message
 	 ** will be displayed */ 
 	way3();
