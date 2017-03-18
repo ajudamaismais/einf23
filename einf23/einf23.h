@@ -43,11 +43,11 @@ typedef struct
 	String (*string)    ();
 	String (*password)  ();
 	int    (*integer)   ();
-  int    (*winteger)  (String, String);
+    int    (*winteger)  (String, String);
 	float  (*floatn)    ();
-  float  (*wfloatn)   (String, String);
+    float  (*wfloatn)   (String, String);
 	double (*doublen)   ();
-  double (*wdoublen)  (String, String);
+    double (*wdoublen)  (String, String);
 	char   (*character) ();
 } Read;
 
@@ -57,8 +57,8 @@ typedef struct
 	String      (*join)         (char, int  , ...);
 	String      (*slice)        (String, int, int);
 	int         (*is_digit)     (String);
-	int 		    (*to_int)       (String, int* );
-	int 		    (*to_float)     (String, int* );
+	int 		(*to_int)       (String, int* );
+	int 		(*to_float)     (String, int* );
 	int         (*include)      (String, String);
 } Str;
 
@@ -96,8 +96,8 @@ String      str_join         (char, int  , ...);
 String      str_slice        (String, int, int);
 
 int         str_is_digit     (String);
-int 		    str_to_int       (String, int* );
-int 		    str_to_float     (String, int* );
+int 		str_to_int       (String, int* );
+int 		str_to_float     (String, int* );
 int         str_include      (String, String);
 
 char        str_is_of_type   ();
