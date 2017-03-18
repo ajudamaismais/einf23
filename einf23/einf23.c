@@ -19,9 +19,9 @@ ReadObject build_read () {
 	read.floatn = GetFloat;
 	read.doublen = GetDouble;
 	read.character = GetChar;
-    read.winteger = WGetInt;
-    read.wfloatn = WGetFloat;
-    read.wdoublen = WGetDouble;
+    	read.winteger = WGetInt;
+    	read.wfloatn = WGetFloat;
+    	read.wdoublen = WGetDouble;
     
 	return read;
 
